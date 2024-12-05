@@ -1,6 +1,11 @@
+var nome = "OMATHEUSHEIN";
+console.log(nome)
+
 console.log("---- var ----");
 if (true) {
-    var exemploVar = "Visível fora do bloco!";
+    var nome = "MeteBala";
+    console.log(nome);
+    var exemploVar = "Visível fora de bloco!"
 }
 console.log(exemploVar); // Funciona, mas pode causar problemas.
 
